@@ -35,7 +35,11 @@ async function run() {
         const result = await visaCollection.insertOne(data);
         res.send(result);
     })
-
+    app.get('/visas', async(req,res)=>{
+      const cursor = visaCollection.find();
+      const result = await cursor.toArray();
+      res.send(result)
+    })
 
     
     // Send a ping to confirm a successful connection
