@@ -1,14 +1,18 @@
-
+**
 ---
 
 ### ✅ `server` README (`store-server` repo)
 
-```markdown
+```NOT HOSTEd YET
 # 🖥️ TravelBid - Server (API)
 
-This is the backend of **TravelBid**, a secure Node.js/Express API that handles visa data storage using MongoDB and verifies user access via Firebase Authentication.
+This is the backend of **TravelBid**, a secure Node.js/Express API that handles visa data using MongoDB and verifies user access via Firebase Authentication.
 
 > ⚠️ Deletion is intentionally disabled to protect data integrity.
+
+## 🔗 UI Repository
+
+👉 [TravelBid Client Repo (React UI)](https://github.com/mehediScriptDev/Complete-store)
 
 ## 🛠️ Technologies Used
 
@@ -28,11 +32,12 @@ This is the backend of **TravelBid**, a secure Node.js/Express API that handles 
 
 ## 🔐 Authentication
 
-- Token verification via Firebase Admin SDK
-- All endpoints are protected—users must be logged in to access
+- Firebase Admin SDK verifies tokens from the frontend
+- All endpoints are protected — only accessible after login
 
 ## 🧪 How to Run Locally
 
 1. Clone this repo:
    ```bash
    git clone https://github.com/mehediScriptDev/store-server.git
+**
